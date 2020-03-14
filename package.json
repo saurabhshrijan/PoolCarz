@@ -1,0 +1,29 @@
+{
+  "name": "poolcarz",
+  "version": "1.0.0",
+  "description": "PoolCarz is a web application for car-pooling. The application allows users to share ride with others. User can either book a ride or offer a ride.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhshrijan/PoolCarz.git"
+  },
+  "author": "saurabh shrijan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhshrijan/PoolCarz/issues"
+  },
+  "homepage": "https://github.com/saurabhshrijan/PoolCarz#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "mongoose-auto-increment": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
